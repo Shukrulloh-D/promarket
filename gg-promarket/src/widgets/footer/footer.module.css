@@ -1,0 +1,70 @@
+.footer { background: var(--blue-light); padding: 50px 0 30px; margin-top: 60px; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.5fr 1.5fr;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+.col h4 {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--text-muted);
+}
+.col a {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.col a:hover { color: var(--blue); }
+
+.contacts { display: flex; flex-direction: column; gap: 12px; }
+.phone { font-size: 20px; font-weight: 700; }
+.callBtn {
+  padding: 10px 16px;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+  border-radius: var(--radius);
+  font-size: 12px;
+  font-weight: 600;
+  width: fit-content;
+  transition: background 0.2s, color 0.2s;
+}
+.callBtn:hover { background: var(--blue); color: #fff; }
+.schedule { font-size: 13px; color: var(--text-muted); line-height: 1.9; }
+.schedule a { color: var(--blue); }
+
+.social {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+.social span {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--blue);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.social span:hover { background: var(--blue-dark); }
+
+.bottom {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  padding-top: 20px;
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+.bottom a { color: var(--blue); border-bottom: 1px dashed var(--blue); }
+.bottomRow { margin-top: 8px; }
+
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr 1fr; }
+}

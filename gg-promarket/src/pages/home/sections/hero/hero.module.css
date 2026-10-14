@@ -1,0 +1,105 @@
+.section { padding: 20px 0; }
+.grid { display: grid; grid-template-columns: 2fr 1fr; gap: 16px; }
+
+.mainBanner {
+  position: relative;
+  background: var(--blue-dark);
+  color: #fff;
+  padding: 60px 40px;
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 380px;
+}
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  transition: color 0.2s;
+  background: none;
+  border: none;
+}
+.arrow:hover { color: #fff; }
+.arrowLeft { left: 20px; }
+.arrowRight { right: 20px; }
+
+.mainBanner h1 {
+  font-size: 42px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  line-height: 1.1;
+  margin-bottom: 12px;
+}
+.mainBanner p { font-size: 20px; font-weight: 500; margin-bottom: 24px; }
+
+.detailsBtn {
+  padding: 12px 28px;
+  background: var(--yellow);
+  color: var(--text);
+  font-weight: 700;
+  font-size: 13px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.detailsBtn:hover { background: var(--yellow-dark); }
+
+.dots {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.dotActive { background: #fff; }
+
+.side { display: flex; flex-direction: column; gap: 16px; }
+.sideBanner {
+  flex: 1;
+  padding: 40px 30px;
+  border-radius: var(--radius);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sideBlue { background: var(--blue-dark); }
+.sideTeal { background: var(--teal); }
+.sideBanner h3 {
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  margin-bottom: 6px;
+}
+.sideBanner p { font-size: 13px; opacity: 0.85; }
+.sideBanner .detailsBtn {
+  margin-top: 12px;
+  padding: 6px 16px;
+  font-size: 11px;
+}
+
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr; }
+  .mainBanner h1 { font-size: 28px; }
+}

@@ -1,0 +1,33 @@
+.section { padding: 40px 0; }
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+.tab {
+  padding: 10px 18px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 13px;
+  color: var(--blue);
+  white-space: nowrap;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.tab:hover { border-color: var(--blue); }
+.tabActive {
+  background: var(--blue);
+  color: #fff;
+  border-color: var(--blue);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 1100px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 640px)  { .grid { grid-template-columns: repeat(2, 1fr); } }

@@ -1,0 +1,1 @@
+export { Hits } from './hits';
