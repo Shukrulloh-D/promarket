@@ -1,0 +1,19 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: var(--radius);
+  font-weight: 500;
+  font-size: 14px;
+  white-space: nowrap;
+  transition: background 0.2s, color 0.2s;
+}
+.btn--primary { background: var(--blue); color: #fff; }
+.btn--primary:hover { background: var(--blue-dark); }
+.btn--yellow { background: var(--yellow); color: var(--text); }
+.btn--yellow:hover { background: var(--yellow-dark); }
+.btn--outline { border: 1px solid var(--blue); color: var(--blue); }
+.btn--outline:hover { background: var(--blue); color: #fff; }
+.btn--ghost { background: var(--bg-soft); color: var(--text); }
+.btn--ghost:hover { background: var(--border); }

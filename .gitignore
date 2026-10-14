@@ -1,0 +1,26 @@
+# Зависимости (огромная папка, не нужна в репозитории)
+node_modules/
+
+# Папки сборки (генерируются автоматически)
+dist/
+build/
+.vite/
+
+# Файлы окружения (секретные ключи)
+.env
+.env.local
+.env.*.local
+
+# Системные файлы (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Папка IDE (если используешь)
+.vscode/
+.idea/

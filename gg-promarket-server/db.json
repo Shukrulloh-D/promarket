@@ -1,0 +1,111 @@
+{
+  "banners": [
+    { "id": 1, "title": "СМЕСИТЕЛИ RAIBER", "subtitle": "уже в наличии", "color": "blue" },
+    { "id": 2, "title": "УНИТАЗЫ", "subtitle": "до 10 000 ₽", "color": "blue" },
+    { "id": 3, "title": "ТОВАРЫ СО СКИДКОЙ", "subtitle": "подробнее", "color": "teal" }
+  ],
+  "collections": [
+    { "id": 1, "name": "Сияние", "brand": "Kerama Marazzi", "image": "/images/collection-1.png" },
+    { "id": 2, "name": "Веставинд", "brand": "LB-Ceramics", "image": "/images/collection-2.png" },
+    { "id": 3, "name": "Rotterdam", "brand": "Gracia Ceramica", "image": "/images/collection-3.png" },
+    { "id": 4, "name": "Rane", "brand": "Alma Ceramica", "image": "/images/collection-4.png" },
+    { "id": 5, "name": "Гвинардо", "brand": "Kerama Marazzi", "image": "/images/collection-5.png" }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category": "hit",
+      "badge": "ХИТ",
+      "title": "Раковина Rosa Debb 327994000",
+      "size": "60x48 см",
+      "country": "Испания",
+      "price": 2601,
+      "oldPrice": null,
+      "rating": 5,
+      "reviews": 12,
+      "image": "/images/product-1.png"
+    },
+    {
+      "id": 2,
+      "category": "hit",
+      "badge": "АКЦИЯ",
+      "title": "Акриловая ванна AM-PM Bliss L",
+      "size": "180x80 W53A-180-080W-ARB",
+      "country": "Германия",
+      "price": 26990,
+      "oldPrice": 28601,
+      "rating": 5,
+      "reviews": 18,
+      "image": "/images/product-2.png"
+    },
+    {
+      "id": 3,
+      "category": "hit",
+      "badge": "ХИТ",
+      "title": "Душевая система Raiber R008B",
+      "size": "хром",
+      "country": "Германия",
+      "price": 12007,
+      "oldPrice": null,
+      "rating": 5,
+      "reviews": 24,
+      "image": "/images/product-3.png"
+    },
+    {
+      "id": 4,
+      "category": "hit",
+      "badge": "ХИТ",
+      "title": "Унитаз AM-PM Spirit V2.0",
+      "size": "компакт с сиденьем",
+      "country": "Германия",
+      "price": 14764,
+      "oldPrice": null,
+      "rating": 5,
+      "reviews": 4,
+      "image": "/images/product-4.png"
+    },
+    {
+      "id": 5,
+      "category": "sale",
+      "badge": "АКЦИЯ",
+      "title": "Смеситель Hansgrohe Logis",
+      "size": "71070000 для раковины",
+      "country": "Германия",
+      "price": 6050,
+      "oldPrice": 7601,
+      "rating": 5,
+      "reviews": 12,
+      "image": "/images/product-5.png"
+    },
+    {
+      "id": 6,
+      "category": "sale",
+      "badge": "АКЦИЯ",
+      "title": "Душевая кабина Black&White",
+      "size": "Galaxy C9800, 80 x 110 см",
+      "country": "Германия",
+      "price": 84000,
+      "oldPrice": 90580,
+      "rating": 5,
+      "reviews": 12,
+      "image": "/images/product-6.png"
+    }
+  ],
+  "brands": [
+    { "id": 1, "name": "GROHE", "logo": "/images/brand-grohe.png" },
+    { "id": 2, "name": "STWORKI", "logo": "/images/brand-stworki.png" },
+    { "id": 3, "name": "AM-PM", "logo": "/images/brand-ampm.png" },
+    { "id": 4, "name": "GEBERIT", "logo": "/images/brand-geberit.png" },
+    { "id": 5, "name": "Roca", "logo": "/images/brand-roca.png" },
+    { "id": 6, "name": "VitrA", "logo": "/images/brand-vitra.png" },
+    { "id": 7, "name": "dyson", "logo": "/images/brand-dyson.png" },
+    { "id": 8, "name": "JADO", "logo": "/images/brand-jado.png" }
+  ],
+  "articles": [
+    { "id": 1, "title": "Актуальные и необычные аксессуары для ванной комнаты", "image": "/images/article-1.png" },
+    { "id": 2, "title": "Какой температуры должна быть горячая вода?", "image": "/images/article-2.png" },
+    { "id": 3, "title": "Конденсат на бачке унитаза: причины появления и способы устранения", "image": "/images/article-3.png" },
+    { "id": 4, "title": "Анаэробный герметик для резьбовых соединений", "image": "/images/article-4.png" }
+  ],
+  "cart": []
+}
