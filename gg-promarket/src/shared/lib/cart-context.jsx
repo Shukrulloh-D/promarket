@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useState } from 'react';
 import { api } from '@/shared/api';
 
 const CartContext = createContext(null);
-
+ 
 export function CartProvider({ children }) {
   const [items, setItems] = useState([]);
 
