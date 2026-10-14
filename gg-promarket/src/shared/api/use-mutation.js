@@ -4,7 +4,7 @@ import { api } from './client';
 export function useMutation(method, url) {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
-
+ 
   const mutate = async (data) => {
     setIsLoading(true);
     setError(null);

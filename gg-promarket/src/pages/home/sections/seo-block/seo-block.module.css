@@ -15,7 +15,7 @@
 }
 .content {
   background: var(--teal);
-  color: #fff;
+  color: #fff; 
   padding: 40px;
   border-radius: var(--radius);
   display: flex;

@@ -1,6 +1,5 @@
 import { useMutation } from '@/shared/api';
-
-// POST /cart — добавляет товар в корзину
+// Корзина
 export function useAddToCart() {
   return useMutation('post', '/cart');
 }

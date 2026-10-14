@@ -14,7 +14,7 @@ export function CartProvider({ children }) {
       setItems([]);
     }
   };
-
+ 
   useEffect(() => { refresh(); }, []);
 
   const addItem = async (product) => {

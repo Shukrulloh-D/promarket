@@ -8,7 +8,7 @@ export function Articles() {
   if (isLoading) return <Loader />;
   if (error) return <ErrorMessage message={error} />;
   if (!data?.length) return null;
-
+ 
   return (<section id="articles" className={styles.section}>
       <Container>
         <SectionTitle>Статьи</SectionTitle>

@@ -16,7 +16,7 @@ export function CallModal({ isOpen, onClose }) {
       onClose();
     }, 1500);
   };
-
+ 
   return (
     <Modal isOpen={isOpen} onClose={onClose} title="Заказать звонок">
       {sent ? (

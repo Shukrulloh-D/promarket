@@ -13,7 +13,7 @@ export function Hits() {
   if (isLoading) return <Loader />;
   if (error) return <ErrorMessage message={error} />;
   if (!data?.length) return null;
-
+ 
   return (
     <section id="hits" className={styles.section}>
       <Container>

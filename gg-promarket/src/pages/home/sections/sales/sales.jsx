@@ -13,7 +13,7 @@ export function Sales() {
   if (isLoading) return <Loader />;
   if (error) return <ErrorMessage message={error} />;
   if (!data?.length) return null;
-
+ 
   return (
     <section id="sales" className={styles.section}>
       <Container>

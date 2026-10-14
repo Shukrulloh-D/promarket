@@ -5,7 +5,7 @@ node_modules/
 dist/
 build/
 .vite/
-
+ 
 # Файлы окружения (секретные ключи)
 .env
 .env.local

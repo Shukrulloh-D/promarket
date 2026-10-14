@@ -32,7 +32,7 @@ a { color: inherit; text-decoration: none; }
 button { font: inherit; cursor: pointer; border: none; background: none; }
 ul { list-style: none; }
 
-/* ========== АНИМАЦИИ ========== */
+/*                   АНИМАЦИИ           */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(20px); }
   to   { opacity: 1; transform: none; }
@@ -56,10 +56,8 @@ ul { list-style: none; }
   100% { transform: scale(1); }
 }
 
-/* Fade-in всей страницы при загрузке */
 .page-appear { animation: fadeUp 0.5s ease backwards; }
 
-/* Секции с задержкой появления */
 .section-appear {
   opacity: 0;
   animation: fadeUp 0.6s ease forwards;
@@ -72,7 +70,6 @@ ul { list-style: none; }
 .section-appear--6 { animation-delay: 0.55s; }
 .section-appear--7 { animation-delay: 0.65s; }
 
-/* Плавный hover для карточек */
 .hover-lift {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
@@ -81,7 +78,6 @@ ul { list-style: none; }
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
 }
 
-/* Кастомный скроллбар */
 ::-webkit-scrollbar { width: 10px; height: 10px; }
 ::-webkit-scrollbar-track { background: var(--bg-soft); }
 ::-webkit-scrollbar-thumb {

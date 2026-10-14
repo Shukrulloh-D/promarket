@@ -12,7 +12,7 @@ import { SeoBlock } from './sections/seo-block';
 
 export function HomePage() {
   return (
-    <div className="page-appear">
+    <div className="page-appear"> 
       <Header />
       <main>
         <Hero />

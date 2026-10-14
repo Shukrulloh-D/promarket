@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useCart, useFavorites, cn } from '@/shared/lib';
 import styles from './product-card.module.css';
-
+ 
 export function ProductCard({ product }) {
   const { addItem } = useCart();
   const { toggle, isFavorite } = useFavorites();

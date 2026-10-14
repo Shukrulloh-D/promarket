@@ -16,7 +16,7 @@ export function FavoritesProvider({ children }) {
       {children}
     </FavoritesContext.Provider>
   );
-}
+} 
 
 export function useFavorites() {
   return useContext(FavoritesContext);

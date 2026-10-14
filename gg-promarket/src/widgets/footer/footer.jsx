@@ -17,7 +17,7 @@ const COLUMNS = [
 export function Footer() {
   const [callOpen, setCallOpen] = useState(false);
 
-  return (
+  return ( 
     <>
       <footer className={styles.footer}>
         <Container>

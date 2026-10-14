@@ -10,7 +10,7 @@
 }
 .itemTitle { font-size: 14px; font-weight: 500; }
 .itemPrice { font-size: 13px; color: var(--text-muted); }
-.qty { font-size: 13px; font-weight: 600; }
+.qty { font-size: 13px; font-weight: 600; } 
 .remove {
   color: var(--red);
   font-size: 18px;

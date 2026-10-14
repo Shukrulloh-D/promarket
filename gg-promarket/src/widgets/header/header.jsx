@@ -20,7 +20,7 @@ export function Header() {
             <div className={styles.topInner}>
               <a href="/" className={styles.logo}>
                 <img src="/images/logo.png" alt="GG PROMARKET" />
-              </a>
+              </a> 
 
               <div className={styles.location}>Москва</div>
 
@@ -42,7 +42,6 @@ export function Header() {
           </Container>
         </div>
 
-        {/* Нижняя строка */}
         <div className={styles.main}>
           <Container>
             <div className={styles.mainInner}>

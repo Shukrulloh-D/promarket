@@ -71,7 +71,8 @@
   align-items: baseline;
   margin-top: auto;
 }
-.price { font-size: 20px; font-weight: 700; }
+.price { font-size: 20px;
+  font-weight: 700; }
 .oldPrice { font-size: 13px; color: var(--red); text-decoration: line-through; }
 
 .cartBtn {

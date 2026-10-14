@@ -3,7 +3,7 @@ import { Container, Loader, ErrorMessage } from '@/shared/ui';
 import { useBanners } from '@/entities/banner';
 import { cn } from '@/shared/lib';
 import styles from './hero.module.css';
-
+ 
 export function Hero() {
   const { data, isLoading, error } = useBanners();
   const [slide, setSlide] = useState(0);

@@ -15,6 +15,6 @@ export function SeoBlock() {
           </div>
         </div>
       </Container>
-    </section>
+    </section> 
   );
 }

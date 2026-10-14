@@ -189,7 +189,7 @@
   color: var(--blue);
   transition: color 0.2s, transform 0.2s;
 }
-.iconBtn:hover {
+.iconBtn:hover { 
   color: var(--blue-dark);
   transform: translateY(-1px);
 }

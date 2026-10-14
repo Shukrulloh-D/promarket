@@ -1,7 +1,6 @@
 import { Container } from '@/shared/ui';
 import styles from './advantages.module.css';
 
-/* SVG иконки в стиле Figma — контурные teal */
 const ICONS = {
   truck: (
     <svg viewBox="0 0 48 48">

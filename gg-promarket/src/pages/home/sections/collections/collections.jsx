@@ -23,6 +23,6 @@ export function Collections() {
           ))}
         </div>
       </Container>
-    </section>
+    </section> 
   );
 }

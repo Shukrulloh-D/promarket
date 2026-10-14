@@ -10,7 +10,7 @@ export function useFetch(url, params) {
 
   useEffect(() => {
     let cancelled = false;
-
+ 
     (async () => {
       setIsLoading(true);
       setError(null);

@@ -1,1 +1,2 @@
 export { Advantages } from './advantages';
+ 

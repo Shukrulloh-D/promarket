@@ -26,7 +26,7 @@ export function CartModal({ isOpen, onClose }) {
               <button className={styles.remove} onClick={() => removeItem(item.id)}>✕</button>
             </div>
           ))}
-
+ 
           <div className={styles.total}>
             <span>Итого:</span>
             <span>{total.toLocaleString('ru-RU')} ₽</span>
