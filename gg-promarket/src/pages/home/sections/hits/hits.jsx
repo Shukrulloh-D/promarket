@@ -15,7 +15,7 @@ export function Hits() {
   if (!data?.length) return null;
 
   return (
-    <section className={styles.section}>
+    <section id="hits" className={styles.section}>
       <Container>
         <SectionTitle>Хиты продаж</SectionTitle>
 

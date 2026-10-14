@@ -15,7 +15,7 @@ export function Sales() {
   if (!data?.length) return null;
 
   return (
-    <section className={styles.section}>
+    <section id="sales" className={styles.section}>
       <Container>
         <SectionTitle>Акции</SectionTitle>
 

@@ -9,8 +9,7 @@ export function Articles() {
   if (error) return <ErrorMessage message={error} />;
   if (!data?.length) return null;
 
-  return (
-    <section className={styles.section}>
+  return (<section id="articles" className={styles.section}>
       <Container>
         <SectionTitle>Статьи</SectionTitle>
         <div className={styles.gridWrap}>

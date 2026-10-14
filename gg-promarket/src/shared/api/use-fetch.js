@@ -25,7 +25,6 @@ export function useFetch(url, params) {
     })();
 
     return () => { cancelled = true; };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [url, paramsKey]);
 
   return { data, isLoading, error };

@@ -12,20 +12,20 @@ import { SeoBlock } from './sections/seo-block';
 
 export function HomePage() {
   return (
-    <>
+    <div className="page-appear">
       <Header />
       <main>
         <Hero />
-        <Advantages />
-        <Collections />
-        <Hits />
-        <Sales />
-        <BannerStrip />
-        <Brands />
-        <Articles />
+        <div className="section-appear section-appear--1"><Advantages /></div>
+        <div className="section-appear section-appear--2"><Collections /></div>
+        <div className="section-appear section-appear--3"><Hits /></div>
+        <div className="section-appear section-appear--4"><Sales /></div>
+        <div className="section-appear section-appear--5"><BannerStrip /></div>
+        <div className="section-appear section-appear--6"><Brands /></div>
+        <div className="section-appear section-appear--7"><Articles /></div>
         <SeoBlock />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }

@@ -6,7 +6,7 @@ export function SeoBlock() {
     <section className={styles.section}>
       <Container>
         <div className={styles.grid}>
-          <img className={styles.image} src="/images/seo-image.png" alt="" />
+          <img className={styles.image} src="/images/seo-image.png" alt="seo" />
           <div className={styles.content}>
             <h2>Блок SEO-текста про магазин</h2>
             <p>GG Promarket — крупный ритейлер сантехнического оборудования, плитки и аксессуаров. Мы нацелены на то, чтобы сделать процесс выбора и покупки сантехники максимально простым и интуитивно понятным.</p>

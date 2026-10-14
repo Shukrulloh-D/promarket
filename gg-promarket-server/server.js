@@ -12,7 +12,7 @@ app.use(express.json());
 const readDb = async () => JSON.parse(await readFile('./db.json', 'utf-8'));
 const writeDb = (data) => writeFile('./db.json', JSON.stringify(data, null, 2));
 
-// GET: /api/banners, /api/brands, /api/articles и т.д.
+// GET: /api/banners, /api/brands, /api/articles итд.
 app.get('/api/:section', async (req, res) => {
   const db = await readDb();
   const data = db[req.params.section];
@@ -20,7 +20,7 @@ app.get('/api/:section', async (req, res) => {
   res.json(data);
 });
 
-// GET с фильтром: /api/products?category=hit
+// GET фильтр /api/products?category=hit
 app.get('/api/products', async (req, res) => {
   const db = await readDb();
   const { category } = req.query;
@@ -29,7 +29,7 @@ app.get('/api/products', async (req, res) => {
   res.json(products);
 });
 
-// POST — добавить в корзину
+// POST
 app.post('/api/cart', async (req, res) => {
   const { productId, qty = 1 } = req.body;
   const db = await readDb();
@@ -46,7 +46,7 @@ app.post('/api/cart', async (req, res) => {
   res.json(db.cart);
 });
 
-// DELETE — удалить из корзины
+// DELETE
 app.delete('/api/cart/:id', async (req, res) => {
   const db = await readDb();
   db.cart = db.cart.filter(item => item.id !== Number(req.params.id));

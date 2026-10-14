@@ -10,7 +10,7 @@ export function Brands() {
   if (!data?.length) return null;
 
   return (
-    <section className={styles.section}>
+   <section id="brands" className={styles.section}>
       <Container>
         <SectionTitle>Популярные бренды</SectionTitle>
         <div className={styles.grid}>
